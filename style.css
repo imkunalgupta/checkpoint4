@@ -155,6 +155,9 @@ a{
 .flex-30{
 	flex: 0 1 30%;
 }
+.flex-32{
+	flex: 0 1 32%;
+}
 .flex-35{
 	flex: 0 1 35%;
 }
@@ -192,6 +195,12 @@ a{
 
 /* general-class-end */
 /* header */
+.header{
+	position: fixed;
+	display: flex;
+	background-color: #ffffff;
+}
+
 .brand-logo{
 	font-size: 1.7rem;
 	color: var(--text-dark);
@@ -346,6 +355,7 @@ a{
 /* about-section(3) */
 .about{
 	background-color: var(--bg-about);
+	padding: 3rem 0;
 }
 .about aside{
 	position: relative;
@@ -990,7 +1000,8 @@ a{
 
 /* Blog-page */
 .blog-hero{
-	padding: 1.2rem 0;
+    
+	padding: 3rem 0;
 	background-color: rgb(244,240,244);
 }
 .blog-hero a{
